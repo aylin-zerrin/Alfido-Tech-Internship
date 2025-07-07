@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #a5c8ea, #93b9ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  transition: background 0.3s ease;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.profile-card {
+  background-color: #d298e3;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  font-size: 1.8rem;
+  color: #222222;
+  margin-bottom: 15px;
+}
+
+.bio {
+  font-size: 1rem;
+  color: #2b2727;
+  line-height: 1.5;
+}
+
+/* Button Style */
+.action-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-right: 10px;
+}
+
+.action-btn:hover {
+  background-color: #574fcf;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background: #3c3c3c;
+  color: #636262;
+}
+
+body.dark-mode .profile-card {
+  background-color: #646363;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .action-btn {
+  background-color: #00bcd4;
+}
+
+body.dark-mode .action-btn:hover {
+  background-color: #0097a7;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .profile-card {
+    padding: 20px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+  }
+
+  .name {
+    font-size: 1.5rem;
+  }
+
+  .bio {
+    font-size: 0.95rem;
+  }
+
+  .action-btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+ }
+}
