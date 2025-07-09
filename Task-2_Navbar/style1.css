@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  padding-top: 70px;
+}
+
+.custom-navbar {
+  background: linear-gradient(to right, #7F00FF, #E100FF); /* Purple gradient */
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(to right, #7fddf7, #0072ff);
+  height: 100vh;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+/* Sections */
+.section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+
+/* Projects Section */
+.projects-bg {
+  background: linear-gradient(to right, #fc466b, #3f5efb);
+}
+
+/* Nav Link Styles */
+.nav-link-custom {
+  position: relative;
+  color: white !important;
+  margin-left: 15px;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link-custom::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: white;
+  transition: width 0.3s;
+}
+
+.nav-link-custom:hover::after {
+  width: 100%;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
