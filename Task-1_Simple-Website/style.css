@@ -21,7 +21,7 @@ body {
 }
 
 .profile-card {
-  background-color: #d298e3;
+  background-color: #d897ec;
   padding: 30px;
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
@@ -54,7 +54,7 @@ body {
   margin-top: 15px;
   padding: 10px 20px;
   font-size: 1rem;
-  background-color: #6c63ff;
+  background-color: #7973ed;
   color: white;
   border: none;
   border-radius: 10px;
@@ -64,7 +64,7 @@ body {
 }
 
 .action-btn:hover {
-  background-color: #574fcf;
+  background-color: #6e65e6;
 }
 
 /* Dark Mode Styles */
